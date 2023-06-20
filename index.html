@@ -8,6 +8,7 @@
         <title>Memory</title>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="js/index.js"></script>
         <!------ Include the above in your HEAD tag ---------->
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -17,57 +18,44 @@
 
     
 
-    <h1>Memory</h1>
-    <div class='grid'>
-      <div class='grid--item'>
-        <div class='img' style='background-image: url(https://images.unsplash.com/photo-1417436026361-a033044d901f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=faa4e192f33e0d6b7ce0e54f15140e42);'></div>
-        <div class='container'>
-          <h2>Snowy Hills</h2>
-          <div class='desc'>Photo by Ales Krivec</div>
+      <h1>3D Cube Image Gallery</h1>
+
+      <div class="cube-container">
+      
+        <div class="cube initial-position">
+      
+          <img class="cube-face-image image-1" src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=300&h=300&fit=crop">
+          
+          <img class="cube-face-image image-2" src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=300&h=300&fit=crop">
+          
+          <img class="cube-face-image image-3" src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=300&h=300&fit=crop">
+          
+          <img class="cube-face-image image-4" src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=300&h=300&fit=crop">
+          
+          <img class="cube-face-image image-5" src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=300&h=300&fit=crop">
+          
+          <img class="cube-face-image image-6" src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=300&h=300&fit=crop">
+      
         </div>
+      
       </div>
-      <div class='grid--item'>
-        <div class='img' style='background-image: url(https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=49dab7a5e4b2e28b5707bc2db974c94b);'></div>
-        <div class='container'>
-          <h2>Bear</h2>
-          <div class='desc'>Photo by Thomas Lefebvre</div>
-        </div>
+      
+      <h2>Click the images below to rotate the cube</h2>
+      
+      <div class="image-buttons">
+      
+        <input type="image" class="show-image-1" src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=100&h=100&fit=crop"></input>
+      
+        <input type="image" class="show-image-2" src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=100&h=100&fit=crop"></input>
+      
+        <input type="image" class="show-image-3" src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=100&h=100&fit=crop"></input>
+      
+        <input type="image" class="show-image-4" src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=100&h=100&fit=crop"></input>
+      
+        <input type="image" class="show-image-5" src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=100&h=100&fit=crop"></input>
+      
+        <input type="image" class="show-image-6" src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=100&h=100&fit=crop"></input>
+      
       </div>
-      <div class='grid--item'>
-        <div class='img' style='background-image: url(https://images.unsplash.com/photo-1425668273332-3a46ab26b161?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d453ab3dec298c43415526458b360fa6);'></div>
-        <div class='container'>
-          <h2>Owl</h2>
-          <div class='desc'>Photo by photostockeditor</div>
-        </div>
-      </div>
-      <div class='grid--item'>
-        <div class='img' style='background-image: url(https://images.unsplash.com/photo-1423145369430-a9ea0de096cd?crop=entropy&fit=crop&fm=jpg&h=1375&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1725);'></div>
-        <div class='container'>
-          <h2>Horse</h2>
-          <div class='desc'>Photo by Annie Spratt</div>
-        </div>
-      </div>
-      <div class='grid--item'>
-        <div class='img' style='background-image: url(https://images.unsplash.com/photo-1432887382605-0abf9cc49e8f?crop=entropy&fit=crop&fm=jpg&h=1375&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1725);'></div>
-        <div class='container'>
-          <h2>Ice & Penguin</h2>
-          <div class='desc'>Photo by Teodor Bjerrang</div>
-        </div>
-      </div>
-      <div class='grid--item'>
-        <div class='img' style='background-image: url(https://images.unsplash.com/photo-1417026846249-f31f7e43fc35?crop=entropy&fit=crop&fm=jpg&h=1375&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1725);'></div>
-        <div class='container'>
-          <h2>Pile of Logs</h2>
-          <div class='desc'>Photo by Ales Krivec</div>
-        </div>
-      </div>
-      <div class='grid--item'>
-        <div class='img' style='background-image: url(https://images.unsplash.com/uploads/14122811862445bc266cf/931448f2?crop=entropy&fit=crop&fm=jpg&h=1375&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1725);'></div>
-        <div class='container'>
-          <h2>Winter Tree</h2>
-          <div class='desc'>Photo by Mikael Kristenson</div>
-        </div>
-      </div>
-    </div>
   </body>
 </html>
